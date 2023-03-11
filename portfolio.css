@@ -1,0 +1,46 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --more-dark: #434455;
+  --ocean: #404bbf;
+  --light: #f4f4fd;
+  --white: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(--more-dark);
+  font-weight: 400;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.name-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--more-dark);
+}
+.order-service {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+  cursor: pointer;
+}
