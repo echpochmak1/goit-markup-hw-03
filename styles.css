@@ -143,7 +143,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  letter-spacing: 0.02em;
 }
 
 .contacts-list {
@@ -187,8 +186,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.04em;
   cursor: pointer;
-  width: 169px;
-  height: 56px;
+  padding: 16px 32px 16px 32px;
   left: 636px;
   top: 428px;
   border: none;
@@ -219,7 +217,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
+  margin-bottom: 8px;
 }
 .container-name-section {
   width: 1158px;
@@ -263,6 +261,10 @@ body {
 
 .text2 {
   text-align: center;
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .name-section {
@@ -347,4 +349,9 @@ ul {
   align-items: center;
   padding: 0px;
   gap: 8px;
+}
+
+.team-photo {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }

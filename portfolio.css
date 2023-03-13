@@ -203,8 +203,8 @@ button:hover {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-top: 96px;
-  margin-bottom: 72px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .flex-box {
