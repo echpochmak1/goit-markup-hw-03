@@ -107,14 +107,14 @@ body {
   display: flex;
   gap: 40px;
   margin-left: 76px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .contacts-list {
   gap: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation-item {
@@ -168,6 +168,7 @@ body {
   height: 120px;
   left: 472px;
   top: 260px;
+  margin-bottom: 48px;
 }
 
 .our-skills {
@@ -190,6 +191,7 @@ body {
   height: 56px;
   left: 636px;
   top: 428px;
+  border: none;
 }
 
 .order-service:focus {
@@ -200,13 +202,12 @@ body {
   width: 1158px;
   margin: 0 auto;
   margin: auto;
-  margin-top: 120px;
+  padding-top: 120px;
 }
 
 .goal-item {
   display: flex;
   align-items: center;
-  margin-left: 15px;
   gap: 24px;
 }
 
@@ -274,7 +275,7 @@ body {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .footer {

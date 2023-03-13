@@ -164,9 +164,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
-  margin-top: 32px;
-  padding-bottom: 6px;
-  padding-left: 16px;
+  margin-bottom: 8px;
 }
 .text {
   font-weight: 400;
@@ -174,9 +172,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--more-dark);
-  margin-top: 8px;
-  padding-left: 16px;
-  padding-bottom: 32px;
+  margin-bottom: 16px;
 }
 .order-service {
   font-family: "Roboto", sans-serif;
@@ -186,10 +182,12 @@ address {
   letter-spacing: 0.04em;
   color: var(--primary-brand);
   cursor: pointer;
-  width: 116px;
-  height: 48px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 button:hover {
@@ -266,4 +264,14 @@ button:hover {
 .photo {
   border: 1px solid #e7e9fc;
   margin-bottom: 0px;
+}
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.portf-photo {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
