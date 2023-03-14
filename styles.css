@@ -47,7 +47,7 @@ address {
 
 .container-header {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
+
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -284,6 +284,8 @@ body {
   background-color: #2e2f42;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .container-footer {
@@ -300,10 +302,7 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 2420px;
-  padding-top: 18px;
+  margin-top: 18px;
 }
 .footer-logo-two {
   font-weight: 800;
@@ -348,7 +347,7 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 0px;
-  gap: 8px;
+
   text-align: center;
 }
 
