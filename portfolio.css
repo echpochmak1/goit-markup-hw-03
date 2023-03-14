@@ -61,10 +61,8 @@ address {
 
 .container-header {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
   padding-right: 15px;
   padding-left: 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
